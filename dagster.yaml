@@ -1,0 +1,13 @@
+instance_class:
+    module: dagster
+    class: DagsterInstance
+
+run_coordinator:
+    module: dagster.core.run_coordinator
+    class: QueuedRunCoordinator
+
+compute_logs:
+    module: dagster.core.storage.compute_log_manager
+    class: LocalComputeLogManager
+    config:
+        base_dir: "./.temp"

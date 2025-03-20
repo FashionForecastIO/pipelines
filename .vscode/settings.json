@@ -1,0 +1,9 @@
+{
+    "cSpell.words": [
+        "dagster",
+        "pytest",
+        "sdist",
+        "setuptools",
+        "sqlalchemy"
+    ]
+}
